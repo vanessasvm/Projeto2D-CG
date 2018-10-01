@@ -25,7 +25,7 @@ public abstract class Base {
     protected Color cor = Color.BLACK;
     protected Color borda = Color.GREEN;
     protected Image img;
-    protected Rectangle rect = new Rectangle(0, 0, 0, 0);
+    protected Rectangle rect = new Rectangle(0, 0, 100, 100);
     
         
     public int getX() {
@@ -103,11 +103,7 @@ public abstract class Base {
     public void setImg(Image img) {
         this.img = img;
     }
-    
-    public Rectangle getBounds() {
-        return new Rectangle(x, y, largura, altura);
-    }
-    
+       
     public void mover() {
         x = x + incX;
         y = y + incY;

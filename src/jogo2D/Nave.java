@@ -5,8 +5,6 @@
  */
 package jogo2D;
 
-import java.awt.event.KeyEvent;
-import java.util.ArrayList;
 import javax.swing.ImageIcon;
 
 /**
@@ -57,7 +55,5 @@ public class Nave extends Base{
 	}
         
     }
-    
-    
-           
+                  
 }

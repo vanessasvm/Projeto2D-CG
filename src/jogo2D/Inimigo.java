@@ -24,10 +24,8 @@ public class Inimigo extends Base{
         ImageIcon ref;
         if(nivel == 1){
             ref = new ImageIcon(FrmJogo.class.getResource("/img/dark_aster.png"));
-            //img = ref1.getImage();
         } else {
             ref = new ImageIcon(FrmJogo.class.getResource("/img/thanos.png"));
-            //img = ref.getImage();
         }
         
         img = ref.getImage();
