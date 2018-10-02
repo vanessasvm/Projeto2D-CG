@@ -13,8 +13,6 @@ import javax.swing.ImageIcon;
  */
 public class Nave extends Base{
     
-    //private ArrayList<Tiro> tiros = new ArrayList();
-    
     public Nave() {
         ImageIcon ref = new ImageIcon(FrmJogo.class.getResource("/img/milano.png"));
         img = ref.getImage();

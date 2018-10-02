@@ -37,6 +37,7 @@ public class Inimigo extends Base{
             
     }
     
+    @Override
     public void mover(){
         if(nivel == 1){
             velocidade = 1;

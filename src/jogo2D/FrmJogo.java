@@ -123,9 +123,7 @@ public class FrmJogo extends javax.swing.JFrame implements Runnable, KeyListener
         
         
         ImageIcon ref = new ImageIcon(FrmJogo.class.getResource("/img/fundo.jpg"));
-        //background = ref.getImage();
-        
-                        
+                         
         player = new Nave();
         player.setIncY(0);
         player.setIncX(0);
